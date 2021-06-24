@@ -8,18 +8,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Frontend Mentor | Stats preview card component</title>
+    <title>Stats preview card component</title>
   </head>
 
   <body>
     <div class="container">
       <div class="img-holder">
         <picture>
-          <source srcset="./images/image-header-mobile.jpg" />
+          <source media="(min-width: 320px)" srcset="./images/image-header-mobile.jpg" />
           <source media="(min-width: 1200px)" srcset="./images/image-header-desktop.jpg" />
           <img src="./images/image-header-mobile.jpg" alt="Meeting image" />
-          <div class="overlay"></div>
         </picture>
+        <div class="overlay"></div>
       </div>
 
       <div class="text-box">

@@ -25,16 +25,19 @@ body {
   justify-content: center;
   align-items: center;
   min-width: 375px;
+  min-height: 100vh;
 }
 
 .container {
   background-color: var(--card-background);
+  display: flex;
+  flex-direction: column;
   min-width: 327px;
   max-width: 654px;
   width: 60vw;
   overflow: hidden;
-  margin: 3rem 0rem;
   border-radius: 0.75rem;
+  margin: 3rem 0;
 }
 
 h1 {
@@ -52,7 +55,6 @@ h2 {
 p {
   font-family: var(--ff-lexend-deca);
   font-weight: 400;
-  color: var(--stat-headings);
 }
 
 .img-holder {
@@ -93,12 +95,12 @@ img {
 }
 
 .paragraph {
+  color: var(--main-paragraph);
   margin-bottom: 3rem;
 }
 
 .stats-data {
   margin-bottom: 1.5rem;
-  text-align: center;
 }
 
 .stats-data .data {
@@ -107,6 +109,7 @@ img {
 
 .stats-data .text {
   text-transform: uppercase;
+  color: var(--stat-headings);
 }
 
 @media (min-width: 1200px) {
@@ -122,12 +125,17 @@ img {
     display: flex;
     flex-direction: row-reverse;
     min-width: 1080px;
-    width: 75vw;
+    min-height: 400px;
+  }
+
+  .heading {
+    margin-bottom: 1.5rem;
   }
 
   .paragraph {
     width: 90%;
-    line-height: 1.25rem;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
   }
 
   .stats-box {
