@@ -38,7 +38,7 @@ Users should be able to:
 
 ```css
 img {
-  display: block; // change the display property to make <img> a block element instead of inline.
+  display: block; /* Change the display property to make <img> a block element instead of inline. */
 }
 ```
 
