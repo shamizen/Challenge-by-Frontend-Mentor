@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://shamizen.github.io/stats-preview-card-component/]
+- Solution URL: https://github.com/shamizen/stats-preview-card-component
+- Live Site URL: https://shamizen.github.io/stats-preview-card-component
 
 ## My process
 
